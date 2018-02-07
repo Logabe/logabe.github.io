@@ -1,3 +1,10 @@
 html{
-background-color:DarkTurquoise;
+ background-color: DarkTurquoise;
+}
+#main{
+ background-color: Moccasin;
+}
+#menu{
+ float: right;
+ background-color: LightGreen;
 }
