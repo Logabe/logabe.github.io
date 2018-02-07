@@ -1,10 +1,33 @@
+/* Main*/
 html{
  background-color: DarkTurquoise;
 }
 #main{
  background-color: Moccasin;
 }
+/* Menu */
 #menu{
  float: right;
  background-color: LightGreen;
+ position: fixed;
+ top: 0;
+ right: 0;
+}
+.sidenav a, .dropdown-btn {
+  padding: 3px 4px 3px 8px;
+  text-decoration: none;
+  font-size: 10px;
+  color: LightSkyBlue;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-container {
+  display: none;
+  background-color: SandyBrown;
+  padding-left: 8px;
 }
