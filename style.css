@@ -1,6 +1,9 @@
 body{
     background-color: white;
-    
+}
+
+a {
+    color: black;
 }
 
 #bookmark{
@@ -11,13 +14,15 @@ body{
 
 main {
     margin-left: 250px;
-    font-family:sans-serif;
+    font-family: sans-serif;
+}
+
+.centered {
+    display: block;
+    text-align: center;
+    margin: auto;
 }
 
 .pronouns {
     color: #3d3d3d;
-}
-
-#links {
-    margin:auto;
 }
