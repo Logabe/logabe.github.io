@@ -1,7 +1,3 @@
-body{
-    background-color: white;
-}
-
 #bookmark{
     position: absolute;
     /* A little hack to keep the top border from showing up */
@@ -13,16 +9,26 @@ main {
     font-family: sans-serif;
 }
 
-a {
-    color: black;
-}
-
 .centered {
     display: block;
     text-align: center;
     margin: auto;
 }
 
+.focus {
+    border: 12px solid white;
+    margin-bottom: 60px;
+}
+
 .pronouns {
-    color: #3d3d3d;
+    color: #8a8a8a;
+}
+
+body {
+    background: linear-gradient(black, rgb(27, 27, 27) 40%, #353535);
+    color: white;
+}
+
+a {
+    color: white; 
 }
