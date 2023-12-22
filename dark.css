@@ -1,5 +1,5 @@
 #bookmark{
-    position: absolute;
+    position: fixed;
     /* A little hack to keep the top border from showing up */
     top:-10px;
 }

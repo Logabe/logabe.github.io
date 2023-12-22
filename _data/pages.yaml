@@ -1,0 +1,8 @@
+- page: /
+  name: Home
+
+- page: /#about
+  name: About Me
+
+- page: /projects
+  name: Projects
