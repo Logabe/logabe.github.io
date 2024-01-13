@@ -26,3 +26,23 @@ a {
 .pronouns {
     color: #3d3d3d;
 }
+
+.segment {
+    height: 500px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.content {
+    width: 53%;
+}
+
+.showcase {
+    width: 46%;
+}
