@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>MEGATALE</title>
+  <style>
+    canvas {
+      box-shadow: 0px 0px 5px 8px rgb(197, 197, 197);
+    }
+  </style>
+</head>
+<body style="margin: 0px; background-color: black; color: white">
+    <h1>MEGATALE</h1>
+    <i>The MEGAtron podcast's definitely-not-an-underTALE-ripoff-game</i>
+    <br>
+    <br>
+
+  <script type="module">
+    import init from './MEGATALE.js'
+
+    init().catch((error) => {
+      if (!error.message.startsWith("Using exceptions for control flow, don't mind me. This isn't actually an error!")) {
+        throw error;
+      }
+    });
+  </script>
+  <p>Thanks to Beeuhu for putting up with me and also doing the art.</p>
+</body>
+
+</html>
