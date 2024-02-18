@@ -7,12 +7,14 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link href="{{ page.stylesheet }}" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        {% if page.stylesheet %}<link href="{{ page.stylesheet }}" rel="stylesheet">{% endif %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div id="bookmark">
-            <svg height="500" width="200">
-                <polygon points="0,0 0,500 100,400 200,500 200,0" style="fill: beige;stroke:brown;stroke-width:5">
+            <svg width="200" height="400">
+                <polygon points="0,0 0,400 100,350 200,400 200,0" style="fill: beige;stroke:brown;stroke-width:5">
                     
                 </polygon>
                 <text x="20" y="50" fill="black" font-size="20px" text-decoration="underline">Logabe</text>

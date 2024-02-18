@@ -1,23 +1,18 @@
-#bookmark{
-    position: fixed;
-    /* A little hack to keep the top border from showing up */
-    top:-10px;
-}
-
-main {
-    margin-left: 250px;
-    font-family: sans-serif;
-}
-
-.centered {
-    display: block;
-    text-align: center;
-    margin: auto;
+@media (max-width: 800px) {
+    .focus {
+        width: 90% !important;
+    }
 }
 
 .focus {
-    border: 12px solid white;
+    border: 0.5vw solid white;
     margin-bottom: 60px;
+    width: 70%;
+    height:fit-content;
+}
+
+.title {
+    width: 100%;
 }
 
 .pronouns {

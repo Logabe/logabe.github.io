@@ -1,15 +1,33 @@
-body{
-    background-color: white;
-}
-
 #bookmark{
     position: fixed;
     /* A little hack to keep the top border from showing up */
     top:-10px;
 }
 
+@media (max-width: 800px) {
+    #bookmark{
+        /* A little hack to keep the top border from showing up */
+        top:-290px;
+    }
+
+    main {
+        padding-top: 110px;
+
+        margin-left: 0px !important;
+    }
+
+    .showcase {
+        margin-bottom: 8vh;
+    }
+
+
+    #spreadsheet > .showcase {
+        min-height: 400px;
+    }
+}
+
 main {
-    margin-left: 250px;
+    margin-left: calc(205px + 0.7vw);
     font-family: sans-serif;
 }
 
@@ -27,22 +45,29 @@ a {
     color: #3d3d3d;
 }
 
-.segment {
-    height: 500px;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.content {
-    width: 53%;
-}
-
 .showcase {
-    width: 46%;
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .segment {
+        height: 500px;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .content {
+        width: 53%;
+    }
+
+    .showcase {
+        width: 46%;
+        height: 100%;
+    }
 }
