@@ -2,16 +2,16 @@
     position: fixed;
     /* A little hack to keep the top border from showing up */
     top:-10px;
+    transition: top 0.25s;
 }
 
 @media (max-width: 800px) {
     #bookmark{
-        /* A little hack to keep the top border from showing up */
-        top:-290px;
+        top:-300px;
     }
 
     main {
-        padding-top: 110px;
+        padding-top: 80px;
 
         margin-left: 0px !important;
     }
